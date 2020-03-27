@@ -95,7 +95,7 @@ export default class App extends Component {
     this.setState( { transactions: this.state.transactions } );
   }
 
-  clearTransactions = (e) => {
+  clearTransactions = () => {
     
     let ans = window.confirm("You are going to clear all transaction history!!!")
     if (ans) {
